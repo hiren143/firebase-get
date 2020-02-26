@@ -1,0 +1,11 @@
+<button (click)="getdata()"> Get data</button>
+
+
+<form>
+    <table>
+        <tr *ngFor="let i of dataarray">
+            <td>{{i.name}}</td>
+            <td>{{i.feild}}</td>
+        </tr>
+    </table>
+</form>
